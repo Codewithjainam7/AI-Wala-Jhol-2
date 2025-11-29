@@ -1,16 +1,16 @@
 import React, { useState, useEffect } from 'react';
-import { Background } from './components/Background';
-import { FeatureCards } from './components/FeatureCards';
-import { analyzeContent } from './services/geminiService';
+import { Background } from './Background';
+import { FeatureCards } from './FeatureCards';
+import { analyzeContent } from './geminiService';
 import { AnalysisResponse } from './types';
-import { ResultCard } from './components/ResultCard';
-import { HistoryView } from './components/HistoryView';
-import { Navbar } from './components/Navbar';
+import { ResultCard } from './ResultCard';
+import { HistoryView } from './HistoryView';
+import { Navbar } from './Navbar';
 import logo from '/flux-pro-2.0_3D_logo_design_with_letters_A_and_I_overlapping_and_intersecting._Black_backgrou-0.jpg';
-import { TrendAnalysis } from './components/TrendAnalysis';
-import { ComparisonView } from './components/ComparisonView';
-import { EducationView } from './components/EducationView';
-import { Loader2, Upload, FileText, ImageIcon, FileUp, Sparkles, Search, History, TrendingUp, Scale, GraduationCap } from './components/Icons';
+import { TrendAnalysis } from './TrendAnalysis';
+import { ComparisonView } from './ComparisonView';
+import { EducationView } from './EducationView';
+import { Loader2, Upload, FileText, ImageIcon, FileUp, Sparkles, Search, History, TrendingUp, Scale, GraduationCap } from './Icons';
 
 type ViewMode = 'analyze' | 'history' | 'trends' | 'compare' | 'learn';
 
